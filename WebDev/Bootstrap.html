@@ -1,0 +1,480 @@
+<!--This HTML document deals with all the applications and uses of Bootstrap 3 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--Responsive-->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./Bootstrap.css">
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!--JavaScript-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    
+    
+    <body>
+        
+        <!--Bootstrap : Grid System-->
+        <h1>Bootstrap : Grid System</h3>
+        <div class="container grid">
+            <div class="row">
+                <div class="col-lg-7">Row 1,Col 1 (7)</div>
+                <div class="col-lg-5">Row 1,Col 2 (5)</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">Row 2,Col 1 (3)</div>
+                <div class="col-md-9">Row 2,Col 2 (9)</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">Row 3,Col 1 (6)</div>
+                <div class="col-sm-4">Row 3,Col 2 (4)</div>
+                <div class="col-sm-2">Row 3,Col 3 (2)</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10">Row 4,Col 1 (10)</div>
+            </div>
+        </div>
+
+        
+        <!--Bootstrap : Typography-->
+        <h1>Bootstrap : Typography</h3>
+        <div class="container">
+            <h3>Normal h3 <small>small</small></h3>
+            <p class="bg-info">Information</p>
+            <p class="text-success">Success</p>
+            <blockquote>
+                <p class="bg-danger text-muted">One must imagine <mark>Sisyphus</mark> happy.</p>
+                <footer class="text-right">Albert Camus</footer>
+            </blockquote>
+            <p><kbd>Enter</kbd> is a <code>kbd</code> element.</p>
+            <p class="bg-warning text-center">Center Warning</p>
+        </div>
+
+        
+        <!--Bootstrap : Tables-->
+        <h1>Bootstrap : Tables</h1>
+        <div class="container table-responsive">
+            <table class="table table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                        <th>Column 4</th>
+                        <th>Column 5</th>
+                        <th>Column 6</th>
+                        <th>Column 7</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>a</td>
+                        <td>b</td>
+                        <td>c</td>
+                        <td>d</td>
+                        <td>e</td>
+                        <td>f</td>
+                        <td>g</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+       
+        <!--Bootstrap : Images-->
+        <h1>Bootstrap : Images</h1>
+        <div class="container">
+            <img src="/home/arka/Pictures/BldRnrPics/Blade-Runner-2049-frame-4k-255.jpg" width="200" height="200" class="img-rounded"/>
+            <br><br>
+            <img src="/home/arka/Pictures/BldRnrPics/Blade-Runner-2049-frame-4k-256.jpg" width="200" height="200" class="img-circle"/>
+            <br><br>
+            <img src="/home/arka/Pictures/BldRnrPics/Blade-Runner-2049-frame-4k-179.jpg" width="200" height="200" class="img-thumbnail"/>
+        </div>
+
+        
+        <!--Bootstrap : Buttons-->
+        <h1>Bootstrap : Buttons</h1>
+        <div class="container">
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-default">Default</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-link">Link</button>
+            
+            <button type="button" class="btn btn-xs">Extra Small</button>
+            <button type="button" class="btn btn-sm">Small</button>
+            <button type="button" class="btn btn-md">Medium</button>
+            <button type="button" class="btn btn-lg">Large</button>
+
+            <button type="button" class="btn btn-active">Enabled</button>
+            <button type="button" class="btn btn-disabled">Disabled</button>
+            <button type="button" class="btn btn-block">Block</button>
+        </div>
+
+
+        <!--Bootstrap : Forms & Inputs-->
+        <h1>Bootstrap : Forms & Inputs</h1>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="info">Info:</label>
+                    <textarea class="form-control" rows="3" id="info"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="sellist">Select One:</label>
+                    <select class="form-control" id="sellist">
+                        <option>A</option>
+                        <option>B</option>
+                    </select>
+                </div>
+                <label class="radio-inline"><input type="radio" name="rb">Radio 1</label>
+                <label class="radio-inline"><input type="radio" name="rb">Radio 2</label>
+                <div class="checkbox">
+                    <label><input type="checkbox">Checkbox</label>
+                </div>
+            </form>
+        </div>
+
+        <!--Bootstrap : Dropdown-->
+        <h1>Bootstrap : Dropdown</h1>
+        <div>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Languages<span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header">Speaking</li>
+                    <li>English</li>
+                    <li>Bengali</li>
+                    <li>Hindi</li>
+                    <li>French</li>
+                    <li>Japaneese</li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Coding</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <!--Bootstrap : Progress Bars-->
+        <h1>Bootstrap : Progress Bars</h1>
+        <div class="container">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="59" aria-valuemin="0" aria-valuemax="100" style="width:59%">59% Complete</div>
+            </div>
+            <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">50% Complete</div>
+            </div>
+            <div class="progress">
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%">25% Complete</div>
+            </div>
+            <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">90% Complete</div>
+            </div>
+        </div>
+
+
+        <!--Bootstrap : Jumbotron-->
+        <h1>Bootstrap : Jumbotron</h1>
+        <div class="container">
+            <div class="jumbotron">
+                <h3>Arka Patra</h3>
+                <p>
+                    Welcome to the machine.
+                </p>
+            </div>
+        </div>
+
+
+        <!--Bootstrap : Alerts-->
+        <h1>Bootstrap : Alerts</h1>
+        <div class="container">
+            <div class="alert alert-success">
+                Success Alert!
+            </div>
+            <div class="alert alert-danger alert-dismissable">
+                Danger!
+                <button class="close" data-dismiss="alert">OK</button>
+            </div>
+            <div class="alert alert-info alert-dismissable">
+                <a class="close" data-dismiss="alert" href="#">Close</a>
+                Information!
+            </div>
+            <div class="alert alert-warning">
+                Warning!
+            </div>
+        </div>
+
+
+        <!--Bootstrap : Wells-->
+        <h1>Bootstrap : Wells</h1>
+        <div class="container">
+            <div class="well well-sm">
+                Small well
+            </div>
+            <div class="well">
+                Normal well
+            </div>
+            <div class="well well-lg">
+                Large well
+            </div>
+        </div>
+
+
+        <!--Bootstrap : Badges & Labels-->
+        <h1>Bootstrap : Badges & Labels</h1>
+        <div class="container">
+            <button class="btn">Click <span class="badge">31</span></button>
+            <p>Paragraph <span class="label label-primary">Label</span></p>
+            <p>Paragraph <span class="label label-default">Label</span></p>
+        </div>
+
+
+        <!--Bootstrap : Media Objects-->
+        <h1>Bootstrap : Media Objects</h1>
+        <div class="container">
+            <div class="media">
+                <div class="media-left">
+                    <img src="/home/arka/Pictures/BldRnrPics/Blade-Runner-2049-frame-4k-255.jpg" width="40" height="40" class="media-object">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Blade Runner</h4>
+                    <h4>2049</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Bootstrap : Carousel-->
+        <h1>Bootstrap : Carousel</h1>
+        <div class="container">
+            <div id="logoCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators black">
+                    <li data-target="#logoCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#logoCarousel" data-slide-to="1" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="active item">
+                        <img src="/home/arka/Pictures/BldRnrPics/Blade-Runner-2049-frame-4k-255.jpg" style="width: 100%">
+                        <div class="carousel-caption">
+                            <h3>BladeRunner 1</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/home/arka/Pictures/BldRnrPics/Blade-Runner-2049-frame-4k-256.jpg" style="width: 100%"/>
+                        <div class="carousel-caption">
+                            <h3>BladeRunner 2</h3>
+                        </div>   
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#logoCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+
+
+        <!--Bootstrap : Modal-->
+        <h1>Bootstrap : Modal</h1>
+        <div class="container">
+            <button type="button" data-toggle="modal" data-target="#myModal">
+               Open Modal 
+            </button> 
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Header</h3>
+                            <button data-dismiss="modal">X</button>
+                        </div>
+                        <div class="modal-body">
+                            Body
+                        </div>
+                        <div class="modal-footer">
+                            Footer
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Bootstrap : Affix-->                                
+        <h1>Bootstrap : Affix</h1>
+        <div class="container">
+            <div id="affixed" data-spy="affix">
+                Affix
+            </div>
+            <div class="jumbotron">Content for scrolling</div>
+            <div class="jumbotron">Content for scrolling</div>
+            <div class="jumbotron">Content for scrolling</div> 
+            <div class="jumbotron">Content for scrolling</div>
+            <div class="jumbotron">Content for scrolling</div>
+            <div class="jumbotron">Content for scrolling</div>
+        </div>
+
+
+        <!--Bootstrap : Button Groups-->
+        <h1>Bootstrap : Button Groups</h1>
+        <div class="container">
+            <div class="btn-group btn-group-sm">
+                <button class="btn btn-success">Succeess</button>
+                <button class="btn ctn-warning">Warning</button>
+                <button class="btn btn-danger">Danger</button>
+            </div>
+            <div class="btn-group-vertical btn-group-justified">
+                <button class="btn btn-primary">Button 1</button>
+                <button class="btn btn-primary">Button 2</button>
+            </div>
+        </div>
+
+
+        <!--Bootstrap : List Groups-->
+        <h1>Bootstrap : List Groups</h1>
+        <div class="container">
+            <ul class="list-group">
+                <li class="list-group-item">Normal</li>
+                <li class="list-group-item">Arka</li>
+                <li class="list-group-item-info">Information</li>
+                <li class="list-group-item-success">Success</li>
+                <li class="list-group-item-active">Active</li>
+                <li class="list-group-item-disabled">Disabled</li>
+            </ul>
+        </div>
+
+
+        <!--Bootstrap : Panels-->
+        <h1>Bootstrap : Panels</h1>
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Head</div>
+                <div class="panel-body">Body</div>
+                <div class="panel-footer">Foot</div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">Head</div>
+                <div class="panel-body">Body</div>
+                <div class="panel-footer">Foot</div>
+            </div>
+        </div>
+
+
+        <!--Bootstrap : Collapsible-->
+        <h1>Bootstrap : Collapsible</h1>
+        <div class="container">
+            <button class="btn" data-toggle="collapse" data-target="#collapsible">
+                Collapsible Content
+            </button>
+            <div class="collapse" id="collapsible">
+                Hello my name is Arka Patra, I am learning bootstrap.
+            </div>
+        </div>
+
+
+        <!--Bootstrap : Pagings-->
+        <h1>Bootstrap : Pagings</h1>
+        <div class="container">
+            <ul class="pagination">
+                <li><a href="#">1</a></li>
+                <li class="disabled"><a href="#">2</a></li>
+                <li class="active"><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+            </ul>
+        </div>
+
+
+        <!--Bootstrap : Breadcrumb-->
+        <h1>Bootstrap : Breadcrumb</h1>
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="#myModal">My Modal</a></li>
+                <li><a href="#logoCarousel">Caraousel</a></li>
+                <li><a href="#affixed">Affix</a></li>
+                <li><a href="#">Page</a></li>
+            </ul>
+        </div>
+
+
+        <!--Bootstrap : Pager-->
+        <h1>Bootstrap : Pager</h1>
+        <div class="container">
+            <ul class="pager">
+                <li class="previous"><a href="#">Previous</a></li>
+                <li class="next"><a href="#logoCarousel">Next</a></li>
+            </ul>
+        </div>
+
+
+        <!--Bootstrap : Navigation Bar-->
+        <h1>Bootstrap : Navigation Bar</h1>
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-right navbar-fixed-bottom">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Home</a>
+                    <ul class="nav navbar-nav">
+                        <li class="disabled"><a href="#logoCarousel">Caraousel</a></li>
+                        <li><a href="First.html">First</a></li>
+                        <li class="active"><a href="#">Page</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar navbar-inverse navbar-right">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Home</a>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="disabled"><a href="#logoCarousel">Caraousel</a></li>
+                        <li><a href="First.html">First</a></li>
+                        <li class="active"><a href="#">Page</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <!--Bootstrap : Scrollspy-->
+        <h1>Bootstrap : Scrollspy</h1>
+        <div class="container scrollspy" data-spy="scroll" data-offset="20">
+                                <nav class="navbar navbar-inverse navbar-fixed-top">
+                                        <div class="navbar-header">
+                                            <a href="#" class="navbar-brand">Home</a>
+                                        </div>
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="#p0">Red</a></li>
+                                            <li><a href="#p3">Purple</a></li>
+                                            <li class="disabled"><a href="#p1">Yellow</a></li>
+                                            <li class="active"><a href="#p2">Green</a></li>
+                                        </ul>
+                                </nav> 
+                    <div id="p0">0 : Scroll and see the Navigation Bar at the top of the page</div>
+                    <div id="p1">1 : Scroll and see the Navigation Bar at the top of the page</div>
+                    <div id="p2">2 : Scroll and see the Navigation Bar at the top of the page</div>
+                    <div id="p3">3 : Scroll and see the Navigation Bar at the top of the page</div>         
+        </div>
+
+        <br><br><br><br>
+
+    </body>
+</html>

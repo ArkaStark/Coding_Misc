@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/home/arka/Arkatrix/Coding_Programs/Coding_VS/myApp/myApp.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

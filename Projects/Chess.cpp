@@ -313,10 +313,8 @@ class Game {
         }
   
         // castling?
-        if (sourcePiece != NULL && sourcePiece instanceof King && sourcePiece.isCastlingMove()) {
+        if (sourcePiece != NULL && sourcePiece<King> && sourcePiece.isCastlingMove()) {
             move.setCastlingMove(true);
-        }
-  
         // store the move
         movesPlayed.add(move);
   
@@ -327,7 +325,7 @@ class Game {
         if (destPiece != null && destPiece instanceof King) {
             if (player.isWhiteSide()) {
                 this->setStatus(WHITE_WIN);
-            }
+            }>
             else {
                 this->setStatus(BLACK_WIN);
             }

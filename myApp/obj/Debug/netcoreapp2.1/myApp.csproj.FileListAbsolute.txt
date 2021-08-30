@@ -1,0 +1,11 @@
+/home/arka/Desktop/Arkatrix/myApp/bin/Debug/netcoreapp2.1/myApp.deps.json
+/home/arka/Desktop/Arkatrix/myApp/bin/Debug/netcoreapp2.1/myApp.runtimeconfig.json
+/home/arka/Desktop/Arkatrix/myApp/bin/Debug/netcoreapp2.1/myApp.runtimeconfig.dev.json
+/home/arka/Desktop/Arkatrix/myApp/bin/Debug/netcoreapp2.1/myApp.dll
+/home/arka/Desktop/Arkatrix/myApp/bin/Debug/netcoreapp2.1/myApp.pdb
+/home/arka/Desktop/Arkatrix/myApp/obj/Debug/netcoreapp2.1/myApp.csprojAssemblyReference.cache
+/home/arka/Desktop/Arkatrix/myApp/obj/Debug/netcoreapp2.1/myApp.csproj.CoreCompileInputs.cache
+/home/arka/Desktop/Arkatrix/myApp/obj/Debug/netcoreapp2.1/myApp.AssemblyInfoInputs.cache
+/home/arka/Desktop/Arkatrix/myApp/obj/Debug/netcoreapp2.1/myApp.AssemblyInfo.cs
+/home/arka/Desktop/Arkatrix/myApp/obj/Debug/netcoreapp2.1/myApp.dll
+/home/arka/Desktop/Arkatrix/myApp/obj/Debug/netcoreapp2.1/myApp.pdb
